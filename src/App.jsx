@@ -5,8 +5,13 @@ import Tabs from './components/Tabs'
 
 function App() {
   // This array holds the content that will be displayed for each tab
-  const tabsContentArray = ['Tab 1 content Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?','Tab 2 content Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?','Tab 3 content Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?','Tab 4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?.']
-  // tabSelection() is the setter for the tab number. Defaulting to '0'
+  const tabsContentArray = [
+    'Tab 1 content  ipsum , sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?',
+    'Tab 2 content Lorem  dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?',
+    'Tab 3 content ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?',
+    'Tab 4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dicta odio nulla fuga corrupti dolore harum molestiae eligendi ullam magni?.']
+  
+  // tabSelection() is the getter for the tab number. Defaulting to '0'
   const [tabSelection, setTabSelection] = useState(0)
   // This function calls the setTabSelection 'setter' to update 'tabSelection'
   // it takes the 'newTabSelection' parameter to 'set' the new value
