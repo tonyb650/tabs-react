@@ -1,3 +1,7 @@
+Tabs Assignment - CSS animation: credit to https://alvarotrigo.com/blog/html-css-tabs/d
+for the CSS code for tab animations
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
